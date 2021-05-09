@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Recommeder Blogs From Kaggle | AI/ML notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Recommeder Blogs From Kaggle" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Links :" />
+<meta property="og:description" content="Links :" />
+<link rel="canonical" href="https://rakshitsakhuja.github.io/blogs/2020/01/28/Recommeder-blogs-from-kaggle.html" />
+<meta property="og:url" content="https://rakshitsakhuja.github.io/blogs/2020/01/28/Recommeder-blogs-from-kaggle.html" />
+<meta property="og:site_name" content="AI/ML notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-01-28T00:00:00-06:00" />
+<script type="application/ld+json">
+{"description":"Links :","url":"https://rakshitsakhuja.github.io/blogs/2020/01/28/Recommeder-blogs-from-kaggle.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://rakshitsakhuja.github.io/blogs/2020/01/28/Recommeder-blogs-from-kaggle.html"},"headline":"Recommeder Blogs From Kaggle","dateModified":"2020-01-28T00:00:00-06:00","datePublished":"2020-01-28T00:00:00-06:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blogs/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://rakshitsakhuja.github.io/blogs/feed.xml" title="AI/ML notes" /><link rel="shortcut icon" type="image/x-icon" href="/blogs/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blogs/">AI/ML notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blogs/about/">About Me</a><a class="page-link" href="/blogs/search/">Search</a><a class="page-link" href="/blogs/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Recommeder Blogs From Kaggle</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-01-28T00:00:00-06:00" itemprop="datePublished">
+        Jan 28, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      6 min read
+    
+</span></p>
+
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><strong>Links :</strong></p>
+
+<p><a href="https://github.com/grahamjenson/list_of_recommender_systems"><strong>https://github.com/grahamjenson/list_of_recommender_systems</strong></a> </p>
+
+<p><a href="https://www.pinterest.de/dataliftoff/recommender-systems/python-libraries/"><strong>https://www.pinterest.de/dataliftoff/recommender-systems/python-libraries/</strong></a> </p>
+
+<p><strong>-<a href="https://www.kaggle.com/gunnvant/building-content-recommender-tutorial">https://www.kaggle.com/gunnvant/building-content-recommender-tutorial</a></strong> </p>
+
+<p> </p>
+
+<ol>
+  <li>
+    <p>Recommendation engines used by the official ted page, will be a degrees of magnitude more sophisticated than what I can demonstrate here and would also involve use of some sort of historical user-item interaction data. </p>
+  </li>
+  <li>
+    <p>generate recommendations just using content when you don’t have any user-item interaction data </p>
+  </li>
+  <li>
+    <p>when you are starting out new and still want to provide the consumers of your content relevant contextual recommendations </p>
+  </li>
+  <li>
+    <p>recommend talks based on the similarity of their content, the first thing I will have to do is to, create a representation of the transcripts </p>
+  </li>
+</ol>
+
+<p>that are amenable to comparison. One way of doing this is to create a tfidf vector for each transcript.  </p>
+
+<p> </p>
+
+<p>TfidfVectorizer </p>
+
+<p>cosine_similarity(matrix) </p>
+
+<p>get_similar_articles </p>
+
+<p> </p>
+
+<p> couple of more things: </p>
+
+<ol>
+  <li>
+    <p> tf-idf with unigrams, you can try using bigrams and see if you get better results. </p>
+  </li>
+  <li>
+    <p>Try using pre-trained word vectors such as word2vec to create vector representation of just the Titles and try to find similarity using cosine distance </p>
+  </li>
+</ol>
+
+<p> </p>
+
+<p> </p>
+
+<p> </p>
+
+<p><a href="https://www.kaggle.com/saurav9786/recommender-system-using-amazon-reviews"><strong>https://www.kaggle.com/saurav9786/recommender-system-using-amazon-reviews</strong></a> </p>
+
+<p> </p>
+
+<ul>
+  <li>
+    <blockquote>
+      <p>Amazon uses currently item-item collaberrative filtering, which scales to massive datasets and produces high quality recommendation system in the real time. </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>This system is a kind of a information filtering system which seeks to predict the “rating” or preferences which user is interested in. </p>
+    </blockquote>
+  </li>
+</ul>
+
+<p> </p>
+
+<p>Types of recommendations </p>
+
+<p>There are mainly 6 types of the recommendations systems :- </p>
+
+<ol>
+  <li>
+    <blockquote>
+      <p>Popularity based systems :- It works by recommeding items viewed and purchased by most people and are rated high.It is not a personalized recommendation. </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Classification model based:- It works by understanding the features of the user and applying the classification algorithm to decide whether the user is interested or not in the prodcut. </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Content based recommedations:- It is based on the information on the contents of the item rather than on the user opinions.The main idea is if the user likes an item then he or she will like the “other” similar item. </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Collaberative Filtering:- It is based on assumption that people like things similar to other things they like, and things that are liked by other people with similar taste. it is mainly of two types: a) User-User b) Item -Item </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Hybrid Approaches:- This system approach is to combine collaborative filtering, content-based filtering, and other approaches . </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Association rule mining :- Association rules capture the relationships between items based on their patterns of co-occurrence across transactions. </p>
+    </blockquote>
+  </li>
+</ol>
+
+<p>Attribute Information:<a href="https://www.kaggle.com/saurav9786/recommender-system-using-amazon-reviews#Attribute-Information:">¶</a> </p>
+
+<p>● userId : Every user identified with a unique id </p>
+
+<p>● productId : Every product identified with a unique id </p>
+
+<p>● Rating : Rating of the corresponding product by the corresponding user </p>
+
+<p>● timestamp : Time of the rating ( ignore this column for this exercise) </p>
+
+<ol>
+  <li>
+    <blockquote>
+      <p>Popularity based </p>
+    </blockquote>
+  </li>
+</ol>
+
+<p> </p>
+
+<ol>
+  <li>
+    <blockquote>
+      <p><em>Check the distribution of the rating</em> </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>On the basis of Rating.count() </p>
+    </blockquote>
+  </li>
+</ol>
+
+<p> </p>
+
+<p>CF is based on the idea that the best recommendations come from people who have similar tastes. In other words, it uses historical item ratings of like-minded people to predict how someone would rate an item.Collaborative filtering has two sub-categories that are generally called memory based and model-based approaches </p>
+
+<p> </p>
+
+<p>Memory-based collaborative filtering system </p>
+
+<p>from surprise import KNNWithMeans </p>
+
+<p> </p>
+
+<p>Parameter : <em>user_based true/false to switch between user-based or item-based collaborative filtering</em> </p>
+
+<p> </p>
+
+<p>Model-based collaborative filtering system </p>
+
+<p> advantage of these methods is that they are able to recommend a larger number of items to a larger number of users, compared to other methods like memory based approach. They have large coverage, even when working with large sparse matrices. </p>
+
+<p> </p>
+
+<p>new_df1.pivot_table </p>
+
+<p>from sklearn.decomposition import TruncatedSVD </p>
+
+<p>np.corrcoef(decomposed_matrix) </p>
+
+<p><a href="https://www.kaggle.com/kanncaa1/recommendation-systems-tutorial"><strong>https://www.kaggle.com/kanncaa1/recommendation-systems-tutorial</strong></a> </p>
+
+<p> </p>
+
+<p>User Based Collaborative Filtering </p>
+
+<ul>
+  <li>
+    <blockquote>
+      <p>Collaborative filtering is making recommend according to combination of your experience and experiences of other people. </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>First we need to make user vs item matrix. </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Each row is users and each columns are items like movie, product or websites </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Secondly, computes similarity scores between users. </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Each row is users and each row is vector. </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Compute similarity of these rows (users). </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Thirdly, find users who are similar to you based on past behaviours </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Finally, it suggests that you are not experienced before. </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Lets make an example of user based collaborative filtering </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Think that there are two people </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>First one watched 2 movies that are lord of the rings and hobbit </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Second one watched only lord of the rings movie </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>User based collaborative filtering computes similarity of these two people and sees both are watched a lord of the rings. </p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Then it recommends hobbit movie to second one as it can be seen picture * </p>
+    </blockquote>
+  </li>
+</ul>
+
+<!-- end list -->
+
+<ul>
+  <li>
+    <p>User based collaborative filtering has some problems </p>
+  </li>
+  <li>
+    <p>In this system, each row of matrix is user. Therefore, comparing and finding similarity between of them is computationaly hard and spend too much computational power. </p>
+  </li>
+  <li>
+    <p>Also, habits of people can be changed. Therefore making correct and useful recommendation can be hard in time. </p>
+  </li>
+  <li>
+    <p>In order to solve these problems, lets look at another recommender system that is item based collaborative filtering </p>
+  </li>
+</ul>
+
+<!-- end list -->
+
+<ol>
+  <li>Item Based Collaborative Filtering </li>
+</ol>
+
+<!-- end list -->
+
+<ul>
+  <li>
+    <p>In this system, instead of finding relationship between users, used items like movies or stuffs are compared with each others. </p>
+  </li>
+  <li>
+    <p>In user based recommendation systems, habits of users can be changed. This situation makes hard to recommendation. However, in item based recommendation systems, movies or stuffs does not change. Therefore recommendation is easier. </p>
+  </li>
+  <li>
+    <p>On the other hand, there are almost 7 billion people all over the world. Comparing people increases the computational power. However, if items are compared, computational power is less. </p>
+  </li>
+  <li>
+    <p>In item based recommendation systems, we need to make user vs item matrix that we use also in user based recommender systems. </p>
+  </li>
+  <li>
+    <p>Each row is user and each column is items like movie, product or websites. </p>
+  </li>
+  <li>
+    <p>However, at this time instead of calculating similarity between rows, we need to calculate similarity between columns that are items like movies or stuffs. </p>
+  </li>
+  <li>
+    <p>Lets look at how it is works. </p>
+  </li>
+  <li>
+    <p>Firstly, there are similarities between lord of the rings and hobbit movies because both are liked by three different people. There is a similarity point between these two movies. </p>
+  </li>
+  <li>
+    <p>If the similarity is high enough, we can recommend hobbit to other people who only watched lord of the rings movie as it can be seen in figure below. * </p>
+  </li>
+  <li>
+    <p><strong>Item Based Collaborative Filtering</strong> </p>
+  </li>
+</ul>
+
+<p>[“userId”,”movieId”,”rating”] </p>
+
+<p>data.pivot_table(index = [“userId”],columns = [“title”],values = ”rating”) </p>
+
+<p>movie_watched = pivot_table[“Bad Boys (1995)”] <br />
+similarity_with_other_movies = pivot_table.corrwith(movie_watched)  <em># find correlation between “Bad Boys (1995)” and other movies</em> <br />
+similarity_with_other_movies = similarity_with_other_movies.sort_values(ascending=False) </p>
+
+<p> </p>
+
+<p><strong>https://www.kaggle.com/sriharshavogeti/collaborative-recommender-system-on-goodreads</strong> </p>
+
+<p> </p>
+
+<p>Naive item-similarity based recommendar system </p>
+
+<p>Dataset =  </p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>book_id</strong></td>
+      <td><strong>user_id</strong></td>
+      <td><strong>rating</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Create dictionary corresponding to each book id with its mapping and its key value as user_ids:rating </p>
+
+<p>dictVectorizer = DictVectorizer(sparse=True) </p>
+
+<p>vector = dictVectorizer.fit_transform(listOfDictonaries) </p>
+
+<p>cosine_similarity(vector) </p>
+
+<p>np.argsort(pairwiseSimilarity[row])[-7:-2][::-1] </p>
+
+<p><a href="https://www.kaggle.com/morrisb/how-to-recommend-anything-deep-recommender"><strong>https://www.kaggle.com/morrisb/how-to-recommend-anything-deep-recommender</strong></a> </p>
+
+<ul>
+  <li>
+    <p><a href="https://www.kaggle.com/morrisb/how-to-recommend-anything-deep-recommender#11">11. Recommendation Engines</a> </p>
+
+    <ul>
+      <li>
+        <blockquote>
+          <p><a href="https://www.kaggle.com/morrisb/how-to-recommend-anything-deep-recommender#11.1">11.1. Mean Rating</a> </p>
+        </blockquote>
+      </li>
+      <li>
+        <blockquote>
+          <p><a href="https://www.kaggle.com/morrisb/how-to-recommend-anything-deep-recommender#11.2">11.2. Weighted Mean Rating</a> </p>
+        </blockquote>
+      </li>
+      <li>
+        <blockquote>
+          <p><a href="https://www.kaggle.com/morrisb/how-to-recommend-anything-deep-recommender#11.3">11.3. Cosine User-User Similarity</a> </p>
+        </blockquote>
+      </li>
+      <li>
+        <blockquote>
+          <p><a href="https://www.kaggle.com/morrisb/how-to-recommend-anything-deep-recommender#11.4">11.4. Cosine TFIDF Movie Description Similarity</a> </p>
+        </blockquote>
+      </li>
+      <li>
+        <blockquote>
+          <p><a href="https://www.kaggle.com/morrisb/how-to-recommend-anything-deep-recommender#11.5">11.5. Matrix Factorisation With Keras And Gradient Descent</a> </p>
+        </blockquote>
+      </li>
+      <li>
+        <blockquote>
+          <p><a href="https://www.kaggle.com/morrisb/how-to-recommend-anything-deep-recommender#11.6">11.6. Deep Learning With Keras</a> </p>
+        </blockquote>
+      </li>
+      <li>
+        <blockquote>
+          <p><a href="https://www.kaggle.com/morrisb/how-to-recommend-anything-deep-recommender#11.7">11.7. Deep Hybrid System With Metadata And Keras</a> </p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p> </p>
+
+<p> </p>
+
+<p>df_train.pivot_table(index=’User’, columns=’Movie’, values=’Rating’)</p>
+
+  </div><a class="u-url" href="/blogs/2020/01/28/Recommeder-blogs-from-kaggle.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blogs/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blogs/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blogs/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>One of the beautiful things about Machine Learning is you are not going to remember lot of details if you are not practicing it.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/rakshitsakhuja" title="rakshitsakhuja"><svg class="svg-icon grey"><use xlink:href="/blogs/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/rakki_99" title="rakki_99"><svg class="svg-icon grey"><use xlink:href="/blogs/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
