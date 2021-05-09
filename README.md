@@ -6,7 +6,7 @@
 
 https://rakshitsakhuja.github.io/blogs/
 
-# My Blog
+# Notes
 
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
