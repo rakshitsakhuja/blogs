@@ -3,8 +3,8 @@ help:
 
 # start (or restart) the services
 server: .FORCE
-	docker-compose down --remove-orphans || true;
-	docker-compose up
+	docker compose down --remove-orphans || true;
+	docker compose up
 
 # start (or restart) the services in detached mode
 server-detached: .FORCE
