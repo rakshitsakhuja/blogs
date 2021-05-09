@@ -353,7 +353,7 @@ pre { margin-bottom: 1.5rem !important; }
 
 li h3, li h4 { margin-top: .05rem !important; margin-bottom: .05rem !important; }
 
-li .post-meta-description { color: #1a1919; font-size: 15px; margin-top: .05rem !important; margin-bottom: .05rem !important; }
+li .post-meta-description { color: #585858; font-size: 15px; margin-top: .05rem !important; margin-bottom: .05rem !important; }
 
 details.description[open] summary::after { content: attr(data-open); }
 
@@ -425,7 +425,7 @@ pre code { font-size: 15px !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-color: #455858 !important; }
+html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-color: #0c0f0f !important; }
 
 a { color: #4bbaff !important; }
 
@@ -433,11 +433,11 @@ a:hover { color: rgba(255, 255, 255, 0.87) !important; }
 
 .site-title, .site-title:visited, .site-nav, .page-link { color: rgba(255, 255, 255, 0.87) !important; }
 
-.site-nav { background-color: #455858; border-color: #5f6f6f; }
+.site-nav { background-color: #0c0f0f; border-color: #2e3131; }
 
-* { scrollbar-color: #455858 #5f6f6f; }
+* { scrollbar-color: #0c0f0f #2e3131; }
 
-pre, code { border-color: #5f6f6f; background-color: #4e6060; }
+pre, code { border-color: #2e3131; background-color: #181b1b; }
 
 .page-description { color: rgba(255, 255, 255, 0.69); }
 
@@ -445,19 +445,19 @@ pre, code { border-color: #5f6f6f; background-color: #4e6060; }
 
 .post-content p, .post-content li { color: rgba(255, 255, 255, 0.69); }
 
-.btn { background-color: #4e6060 !important; color: rgba(255, 255, 255, 0.87) !important; border-color: #5f6f6f !important; }
+.btn { background-color: #181b1b !important; color: rgba(255, 255, 255, 0.87) !important; border-color: #2e3131 !important; }
 
-.btn:hover { background-color: #455858 !important; }
+.btn:hover { background-color: #0c0f0f !important; }
 
-table th { background-color: #4e6060; border-color: #5f6f6f; color: rgba(255, 255, 255, 0.87); }
+table th { background-color: #181b1b; border-color: #2e3131; color: rgba(255, 255, 255, 0.87); }
 
-table td { background-color: #455858; border-color: #5f6f6f; color: rgba(255, 255, 255, 0.69); }
+table td { background-color: #0c0f0f; border-color: #2e3131; color: rgba(255, 255, 255, 0.69); }
 
-.flash { color: #455858 !important; filter: brightness(80%); }
+.flash { color: #0c0f0f !important; filter: brightness(80%); }
 
 canvas { filter: invert(100%); }
 
-.post-list > li > div { box-shadow: none !important; background-color: #4e6060; border: none !important; }
+.post-list > li > div { box-shadow: none !important; background-color: #181b1b; border: none !important; }
 
 li .post-meta-description { color: rgba(255, 255, 255, 0.69) !important; }
 
